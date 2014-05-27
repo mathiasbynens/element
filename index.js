@@ -1,5 +1,5 @@
 var document = require("global/document")
-var decode = require("ent").decode
+var decode = require("he").decode
 var LRU = require("lru-cache")
 
 var TEXT_NODE = 3
